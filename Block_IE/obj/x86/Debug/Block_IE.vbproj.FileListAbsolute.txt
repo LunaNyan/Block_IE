@@ -1,0 +1,26 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\bin\Debug\Block_IE.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\bin\Debug\Block_IE.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\bin\Debug\Block_IE.xml
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\obj\x86\Debug\Block_IE.Form1.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\obj\x86\Debug\Block_IE.Resources.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\obj\x86\Debug\Block_IE.vbproj.GenerateResource.Cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\obj\x86\Debug\Block_IE.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\obj\x86\Debug\Block_IE.xml
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\obj\x86\Debug\Block_IE.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\bin\Debug\Block_IE.exe.manifest
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\bin\Debug\Block_IE.application
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\obj\x86\Debug\Block_IE.exe.manifest
+C:\Users\Administrator\AppData\Local\Temporary Projects\Block_IE\obj\x86\Debug\Block_IE.application
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\obj\x86\Debug\Block_IE.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\obj\x86\Debug\Block_IE.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\obj\x86\Debug\Block_IE.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\bin\Debug\Block_IE.exe.manifest
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\bin\Debug\Block_IE.application
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\bin\Debug\Block_IE.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\bin\Debug\Block_IE.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\bin\Debug\Block_IE.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\obj\x86\Debug\Block_IE.Form1.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\obj\x86\Debug\Block_IE.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\obj\x86\Debug\Block_IE.vbproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\obj\x86\Debug\Block_IE.exe.manifest
+C:\Users\Administrator\documents\visual studio 2010\Projects\Block_IE\Block_IE\obj\x86\Debug\Block_IE.application

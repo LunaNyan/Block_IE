@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Block_IE.exe" version="1.0.0.0" publicKeyToken="e6821fccd288085b" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Block_IE" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Block_IE.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸십시오.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하십시오.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Block_IE.exe" size="20992">
+      <assemblyIdentity name="Block_IE" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ORr/9gp+jT330YMQjJ/hmk2NXAw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=PC203\Administrator" issuerKeyHash="6c56dc067c5d04f90201fa573a94b2f2079b37e2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0TJOw9ewxOEPaWhU0SldLpzqmdU=</DigestValue></Reference></SignedInfo><SignatureValue>psYNdR7oqhjTSKyYW8s3bKtcmX2JmF/I176hUlRe9nRM7EkB1f+UCgVP8PyNoZwkvUhxJljXFeRqcxjUX4YqVO7qE6O8exIbn8rfobi8p5q2Aa2LpvBG8U45NPEeVXoDSDJIgwGqcMVikbYiWge9BMmdqp2lJJu+1vlzFzo4iNU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wCujydxf7N/UHc4/IvUJ8DJQId0hBbIl84wSCDHqEq8bnGhMkKBupYqwQO7U1Bo0dNPXtqhf6I02zeDmufQeW6E5rr0+gYq4rW6+nbRLyM5XlNX79rrq6FOYj0r0+HpjnEDFVwynA02pOcQQgFb+kS50BacmRdvpQG2yK34xqaM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d599ea9c2e5d29d15468690fe1c4b0d7c34e32d1" Description="" Url=""><as:assemblyIdentity name="Block_IE.exe" version="1.0.0.0" publicKeyToken="e6821fccd288085b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC203\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Olg0BsiNMHuFh3GY+PhQXvha7mk=</DigestValue></Reference></SignedInfo><SignatureValue>CpmFNWXIS6JlYB3G8ULZa1raJPYIdr/MGGjnttsNnyHrD9GymhQu0BfJW9bx22iGsi8WmzzH5wlTSBFIN/1PucoUjPh+6K/OHO5u+fVc2jQ+mEwsYpT9j9VC3lGS8MmUIQ2NKWjw0XfkFq0YL+0aKvCqmZheC2Y0HS0QwmFXNWY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wCujydxf7N/UHc4/IvUJ8DJQId0hBbIl84wSCDHqEq8bnGhMkKBupYqwQO7U1Bo0dNPXtqhf6I02zeDmufQeW6E5rr0+gYq4rW6+nbRLyM5XlNX79rrq6FOYj0r0+HpjnEDFVwynA02pOcQQgFb+kS50BacmRdvpQG2yK34xqaM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQYM0FzM5vyJdFs+ZnWupOFDANBgkqhkiG9w0BAQUFADAxMS8wLQYDVQQDHiYAUABDADIAMAAzAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0xNzEwMjEwMTQ1MzdaFw0xODEwMjEwNzQ1MzdaMDExLzAtBgNVBAMeJgBQAEMAMgAwADMAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAK6PJ3F/s39Qdzj8i9QnwMlAh3SEFsiXzjBIIMeoSrxucaEyQoG6lirBA7tTUGjR009e2qF/ojTbN4Oa59B5boTmuvT6Biritbr6dtEvIzleU1fv2uuroU5iPSvT4emOcQMVXDKcDTak5xBCAVv6RLnQFpyZF2+lAbbIrfjGpowIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJlSKSoiGVcdEl+R92n8RAWFvxSdzzQ6+GyymP52FqeJ0QOVtuxkR7I8Ti5Gfw9r/tpJhIdO2tPjiv6TWlUkilUbxGndRA/Co1b/7lpTWphci2iGJnMKCW/f7FipiTI1qQQJ6NOKSQwg1UfWDOo4peId1AfkAAv8syFP7HEnC0bM</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
