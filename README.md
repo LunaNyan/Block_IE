@@ -1,2 +1,2 @@
 # Block_IE
-simple iexplore blocker
+Internet Explorer (iexplore)의 실행을 차단합니다.
